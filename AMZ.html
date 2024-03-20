@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Top N product</title>
+        <link rel="stylesheet" href="cal.css">
+    </head>
+<body>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Change Companies</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="AMZ.html">AMZ</a></li><li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="FLP.HTML">FLP</a></li><li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="SNP.HTML">SNP</a></li><li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="MYN.HTML">MYN</a></li><li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="AZO.HTML">AZO</a></li>
+        </ul>
+      </li>
+
+      <div>
+            <h1 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-bottom: 3%;">Welcome to AMZ top <span class="list_style">5</span> Product</h1>
+      </div>
+
+      <ul style="list-style-type: none;">
+        <li class="list_of_product">Phone</li>
+        <li class="list_of_product">Computer</li>
+        <li class="list_of_product">TV</li>
+        <li class="list_of_product">PC</li>
+        <li class="list_of_product">Headset</li>
+      </ul>
+
+      <button class="btn btn-success" id="back_btn" onclick="change()" >Back</button>
+</body>
+<script>
+  function change()
+  {
+    location.href="cal.html"
+  }
+</script>
+</html>

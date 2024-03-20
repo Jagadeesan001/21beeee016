@@ -1,0 +1,18 @@
+.main-head{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.list_of_product{
+    font-family: 'roboto';
+    font-size: xx-large;
+    text-align: center;
+    margin: 1%;
+}
+.list_style{
+    font-family:cursive;
+}
